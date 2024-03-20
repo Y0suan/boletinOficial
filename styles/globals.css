@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    font-family: "Poppins", sans-serif;
+}
+.SectionHeader{
+    @apply w-[100%] h-auto bg-[rgb(0,161,255)] py-6  pb-0 
+}
+/* h1{
+    @apply text-white font-bold text-5xl
+ }
+h2{
+    @apply text-white font-normal text-2xl
+} 
+h5{
+    @apply text-gray-800 font-semibold text-xl 
+} */
+
+.green{
+    background-color: rgb(0, 205, 84);
+}
+.yellow{
+    background-color: rgb(255, 159, 0);
+}
+.red{
+    background-color: rgb(255, 37, 54); 
+}
+
+.primary{
+    @apply text-[rgb(0,161,255)] h-fit px-4 hover:bg-[rgb(0,162,255)] hover:text-white py-2 rounded shadow border-[rgb(0,161,255)] border-1
+}
+
+h1{
+    @apply text-4xl font-semibold text-gray-800 
+}
+h2{
+    @apply text-3xl font-semibold text-gray-900
+}
+h3{
+    @apply text-2xl font-medium text-gray-700
+}
+p{
+    @apply text-sm font-light text-gray-400 
+}
+
+.btnSecondary{
+    @apply bg-white text-[rgb(0,162,255)] font-medium p-2 px-4 rounded w-fit
+}
+.boletin{
+    transition: 1s;
+}
+.boletin:hover img{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.full-calendar-wrapper{
+
+}
+.fc-toolbar-title{
+    @apply text-3xl font-semibold text-gray-900
+}
+.paginaEXterna{
+    overflow: hidden;
+}
